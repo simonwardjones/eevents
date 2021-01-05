@@ -1,0 +1,2 @@
+# eEvents
+Event planning application
