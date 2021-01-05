@@ -6,10 +6,14 @@ Event planning application
 
 - [x] Create repo
 - [x] Create react app
-- [ ] Create initial pages:
+- [x] Create initial pages:
   - [x] Home page + 2 buttons
-  - [ ] New event page
-  - [ ] Event page
+  - [x] New event page
+  - [x] Event page
+ - [ ] Make re-usable components
+ - [ ] Make a theme
+ - [ ] Make an event form (with styling)
+ - [ ] Make an invitee form (with styling)
 
 ### History
 
