@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "eevents/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "eevents/static/js/main.9ae05fe7.chunk.js",
-    "main.js.map": "eevents/static/js/main.9ae05fe7.chunk.js.map",
-    "runtime-main.js": "eevents/static/js/runtime-main.4c5dc6dc.js",
-    "runtime-main.js.map": "eevents/static/js/runtime-main.4c5dc6dc.js.map",
-    "static/js/2.d43b9671.chunk.js": "eevents/static/js/2.d43b9671.chunk.js",
-    "static/js/2.d43b9671.chunk.js.map": "eevents/static/js/2.d43b9671.chunk.js.map",
-    "static/js/3.63429cbd.chunk.js": "eevents/static/js/3.63429cbd.chunk.js",
-    "static/js/3.63429cbd.chunk.js.map": "eevents/static/js/3.63429cbd.chunk.js.map",
-    "index.html": "eevents/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "eevents/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d43b9671.chunk.js.LICENSE.txt": "eevents/static/js/2.d43b9671.chunk.js.LICENSE.txt"
+    "main.css": "https://simonwardjones.github.io/eevents/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "https://simonwardjones.github.io/eevents/static/js/main.cc9655df.chunk.js",
+    "main.js.map": "https://simonwardjones.github.io/eevents/static/js/main.cc9655df.chunk.js.map",
+    "runtime-main.js": "https://simonwardjones.github.io/eevents/static/js/runtime-main.9bc2501d.js",
+    "runtime-main.js.map": "https://simonwardjones.github.io/eevents/static/js/runtime-main.9bc2501d.js.map",
+    "static/js/2.d43b9671.chunk.js": "https://simonwardjones.github.io/eevents/static/js/2.d43b9671.chunk.js",
+    "static/js/2.d43b9671.chunk.js.map": "https://simonwardjones.github.io/eevents/static/js/2.d43b9671.chunk.js.map",
+    "static/js/3.63429cbd.chunk.js": "https://simonwardjones.github.io/eevents/static/js/3.63429cbd.chunk.js",
+    "static/js/3.63429cbd.chunk.js.map": "https://simonwardjones.github.io/eevents/static/js/3.63429cbd.chunk.js.map",
+    "index.html": "https://simonwardjones.github.io/eevents/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "https://simonwardjones.github.io/eevents/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d43b9671.chunk.js.LICENSE.txt": "https://simonwardjones.github.io/eevents/static/js/2.d43b9671.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c5dc6dc.js",
+    "static/js/runtime-main.9bc2501d.js",
     "static/js/2.d43b9671.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.9ae05fe7.chunk.js"
+    "static/js/main.cc9655df.chunk.js"
   ]
 }
