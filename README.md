@@ -11,8 +11,8 @@ Event planning application
     -   [x] New event page
     -   [x] Event page
 -   [ ] Make re-usable components
--   [ ] Make a theme
--   [ ] Make an event form (with styling)
+-   [x] Make a theme
+-   [x] Make an event form (with styling)
 -   [ ] Make an invitee form (with styling)
 -   [ ] Set up github-pages host
 
