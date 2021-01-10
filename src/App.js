@@ -10,16 +10,7 @@ function App() {
     return (
         <Router basename={`${process.env.REACT_APP_PUBLIC_PATH}`}>
             <div className="App">
-                <div>Test 1</div>
-                <div>
-                    <Link to="/"> Go to home page</Link>
-                </div>
-                <div>
-                    <Link to="/event-1"> Go to event page</Link>
-                </div>
-                <div>
-                    <Link to="/new-event"> Go to new event page</Link>
-                </div>
+                <Navbar />
                 <Route exact path="/" component={Index} />
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/event-1" component={EventPage} />
