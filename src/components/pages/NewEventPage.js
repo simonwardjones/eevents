@@ -28,17 +28,15 @@ const Schema = yup.object().shape({
 //         .required("Hello Silad"),
 // });
 
+const getDefaultFieldProps = ({ form, name }) => ({
+    name,
+    ref: form.register,
+    helperText: form.errors?.[name]?.message,
+    error: !!form.errors[name],
+});
+
 const NewEventPage = () => {
     const form = useForm({ resolver: yupResolver(Schema), mode: "onChange" });
-
-    const getDefaultFieldProps = ({ form, name }) => {
-        return {
-            name,
-            ref: form.register,
-            helperText: form.errors?.[name]?.message,
-            error: !!form.errors[name],
-        };
-    };
 
     return (
         <Section withContainer>
