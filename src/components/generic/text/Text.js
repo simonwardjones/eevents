@@ -1,27 +1,47 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import Br from "./Br";
 
 const Text = (props = {}) => {
-  let children, className, align, centerXs;
-  ({
-    children,
-    className = "",
-    align = "left",
-    centerXs = true,
-    ...props
-  } = props);
+    let children,
+        className,
+        align,
+        xsOverride,
+        gutterBottom,
+        Component,
+        underline;
 
-  const classes = makeStyles((theme) => ({
-    root: { textAlign: align },
-  }))();
+    ({
+        children,
+        className = "",
+        align = "left",
+        xsOverride = [],
+        gutterBottom = false,
+        Component = "p",
+        underline = false,
+        ...props
+    } = props);
 
-  const centerXsClass = centerXs ? "text-center-xs" : "";
+    const classes = makeStyles((theme) => ({
+        root: {
+            textAlign: align,
+            borderBottom: underline
+                ? `1px solid ${theme.palette.grey.main}`
+                : "none",
+        },
+    }))();
 
-  return (
-    <p className={`${className} ${classes.root} ${centerXsClass}`} {...props}>
-      {children}
-    </p>
-  );
+    const xsClasses = xsOverride.map((opt) => `xs-style-${opt}`).join(" ");
+
+    return (
+        <Component
+            className={`${className} ${classes.root} ${xsClasses}`}
+            {...props}
+        >
+            {children}
+            {gutterBottom && <Br />}
+        </Component>
+    );
 };
 
 export default Text;
