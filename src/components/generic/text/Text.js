@@ -34,13 +34,15 @@ const Text = (props = {}) => {
     const xsClasses = xsOverride.map((opt) => `xs-style-${opt}`).join(" ");
 
     return (
-        <Component
-            className={`${className} ${classes.root} ${xsClasses}`}
-            {...props}
-        >
-            {children}
+        <>
+            <Component
+                className={`${className} ${classes.root} ${xsClasses}`}
+                {...props}
+            >
+                {children}
+            </Component>
             {gutterBottom && <Br />}
-        </Component>
+        </>
     );
 };
 

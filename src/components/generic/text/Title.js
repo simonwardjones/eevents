@@ -2,18 +2,16 @@ import React from "react";
 
 import Text from "./Text";
 
-import { makeStyles } from "@material-ui/core/styles";
-
-import React from "react";
+// import { makeStyles } from "@material-ui/core/styles";
 
 const Title = (props = {}) => {
     let children, size;
-    ({ children, size } = props);
+    ({ children, size = 1 } = props);
 
     let Component = ["h1", "h2", "h4"][size];
 
     return (
-        <Text Component={component} {...props}>
+        <Text Component={Component} {...props}>
             {children}
         </Text>
     );
