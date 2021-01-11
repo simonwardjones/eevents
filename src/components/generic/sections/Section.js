@@ -13,10 +13,8 @@ const useStyles = makeStyles((theme) => {
 });
 
 const Section = (props = {}) => {
-    let children,
-        className = "",
-        withContainer;
-    ({ children, className, withContainer = false, ...props } = props);
+    let children, className, withContainer;
+    ({ children, className = "", withContainer = false, ...props } = props);
 
     const Component = withContainer ? Container : React.Fragment;
 
