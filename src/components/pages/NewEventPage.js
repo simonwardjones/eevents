@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import "yup-phone";
 
+import Title from "../generic/text/Title";
 import Form from "../generic/forms/Form";
 import Input from "../generic/fields/Input";
 import GridItem from "../generic/grids/GridItem";
@@ -42,6 +43,9 @@ const NewEventPage = () => {
     return (
         <Section withContainer>
             <Form>
+                <Title gutterBottom underline>
+                    New Event
+                </Title>
                 <GridContainer>
                     <GridItem xs={12} sm={6}>
                         <Input
