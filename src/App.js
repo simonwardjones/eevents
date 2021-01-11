@@ -11,11 +11,11 @@ function App() {
     return (
         <Router basename={`${process.env.REACT_APP_PUBLIC_PATH}`}>
             <div className="App">
-                <Navbar imgSrc="logo512.png" />
-
-                <Route exact path="/" component={Index} />
-
-                <AllRoutes />
+                <Navbar imgSrc="logo.svg" />
+                <main>
+                    <Route exact path="/" component={Index} />
+                    <AllRoutes />
+                </main>
             </div>
         </Router>
     );
