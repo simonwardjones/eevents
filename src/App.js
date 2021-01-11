@@ -2,9 +2,6 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-// import EventPage from "./components/pages/EventPage";
-// import NewEventPage from "./components/pages/NewEventPage";
-
 import Navbar from "./components/generic/navigation/NavBars";
 import AllRoutes from "./components/generic/navigation/AllRoutes";
 
