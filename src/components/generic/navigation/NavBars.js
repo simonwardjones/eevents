@@ -1,6 +1,7 @@
 import React from "react";
 import SideBar from "../../generic/navigation/SideBar";
 import HeaderBar from "../../generic/navigation/HeaderBar";
+import Br from "../../generic/text/Br";
 
 const NavBars = (props = {}) => {
     let drawerOpen, imgSrc;
@@ -14,6 +15,7 @@ const NavBars = (props = {}) => {
             <HeaderBar imgSrc={imgSrc} toggleDrawer={toggleDrawer} />
 
             <SideBar state={drawerState} toggleDrawer={toggleDrawer} />
+            <Br />
         </>
     );
 };
